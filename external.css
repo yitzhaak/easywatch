@@ -1,0 +1,332 @@
+body {
+    background-color: #1b1b1b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+
+}
+.buo {
+    box-sizing:border-box;
+    width: 1150px;
+    margin:auto;
+}
+.buo .top:hover {
+    cursor: default;
+}
+img {
+    width: 5%;
+    height: auto;
+}
+.up .top {
+    text-align: center;
+    color: #26c7c7ed;
+    font-size: 60px;
+}
+.up .login{
+    float: right;
+    margin: -10% 5%;
+    list-style: none;
+
+}
+.up .login li{
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+.login .signin input{
+    color: white;
+    text-decoration: none;
+    background-color: #eab31d;
+    padding: 5px 17px 5px 17px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.login .signin input:hover{
+    background-color: #eab31dd8;
+    cursor: default;
+}
+.login .signup input{
+    background-color: #9877c6;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 0px;
+    color: white;
+}
+.login .signup input:hover{
+    background-color: #9877c6d9;
+    cursor: default;
+}
+.taskbar {
+    background-color: #39392a65;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -4px;
+    height: 300px;
+}
+.test {
+    background-image: url(pexels-bich-tran-669996.jpg);
+    border-top-right-radius: 30px;
+    background-size: cover;
+    margin-top: -300px;
+    margin-left: 50%;
+    height: 300px;
+}
+.taskbar h2 {
+    text-align: center;
+    padding: 100px 20px 2px 20px;
+    color: #42f7d0;
+    margin-right: 50%;
+}
+.taskbar p {
+    text-align: center;
+    margin-right: 50%;
+    color: #42f7d0;
+}
+.taskbar:hover {
+    cursor: default;
+}
+.topbg ul li{
+    display: inline;
+}
+.option {
+    display: flex;
+}
+.topbg ul .home {
+    padding: 10px 18px 16px 18px;
+    background-color: #5b9df3;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.topbg ul .home:hover {
+    padding: 16px 20px 16px 20px;
+    font-weight: bold;
+}
+.topbg ul .category {
+    padding: 10px 18px 16px 18px;
+    background-color: #3daf89;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: -9px;
+}
+.topbg ul .category:hover {
+    padding: 16px 20px 16px 20px;
+    font-weight: bold;
+}
+
+.topbg .drop {
+    display: none;
+    position: absolute;
+    width: 160px;
+    background-color: #202020ea;
+    color: white;
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+.topbg .drop ul li {
+    display: block;
+    padding: 10px 40px 10px 10px;
+    margin-left: -33%;
+}
+.topbg .drop ul li:hover {
+    background-color: #444444e8;
+}
+.topbg .drop ul {
+    display: block;
+}
+.topbg .lemao:hover .drop {
+    display: block;
+}
+.topbg ul .location {
+    padding: 10px 28px 16px 28px;
+    background-color: #743998;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: -9px;
+}
+.topbg .drop1 {
+    display: none;
+    position: absolute;
+    width: 160px;
+    background-color: #202020ea;
+    color: white;
+    margin-left: 10%;
+    margin-top: 0.5%;
+}
+.topbg .drop1 ul li {
+    display: block;
+    padding: 10px 40px 10px 10px;
+    margin-left: -33%;
+}
+.topbg .drop1 ul li:hover {
+    background-color: #444444e8;
+}
+.topbg .drop1 ul {
+    display: absolute;
+}
+.topbg .loc:hover .drop1 {
+    display: block;
+}
+.topbg ul .location:hover {
+    padding: 16px 27px 16px 27px;
+    font-weight: bold;
+}
+.topbg ul .help {
+    padding: 10px 27px 16px 27px;
+    background-color: #eab31def;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: -9px;
+}
+.topbg ul .help:hover {
+    padding: 16px 29px 16px 29px;
+    font-weight: bold;
+}
+.topbg a {
+    text-decoration: none;
+    color: white;
+}
+.topbg a:hover {
+    cursor: default;
+}
+.info {
+    background-color: #132f436b;
+    margin-top: -10px;
+}
+.info:hover{
+    cursor: default;
+}
+.dont p {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 5%;
+}
+.dont img {
+    width: 20px;
+    text-align: center;
+}
+.product {
+    background-color: #171717;
+    margin-top: -10px;
+    padding: 5%;
+    display: flex;
+}
+.prod {
+    margin-left: 10%;
+    padding: 1px 100px 50px 60px;
+}
+.product .prod {
+    color: white;
+}
+.product .prod img {
+    width: 30px;
+}
+.product .intro {
+    background-color: #7c7c7c44;
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 0px;
+    margin-bottom: 1%;
+}
+.product .intro:hover {
+    background-color: #8383836c;
+}
+.product .intro img {
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.product .intro .content1 {
+    padding: 5px 20px 10px 20px;
+    color: white;
+}
+.content1 .dropdown {
+    display: none;
+    color: white;
+    background-color: #5f5f5feb;
+    width: 280px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 70%;
+    margin-top: -15%;
+}
+.content1 .dropdown .yt {
+    padding: 3%;
+}
+.content1 .shopy:hover .dropdown{
+    display: block;
+}
+.product .intro .content1 a {
+    color: #5fbdf7;
+    text-decoration: none;
+}
+.product .intro .content1 a:hover {
+    text-decoration: underline;
+}
+.product:hover {
+    cursor: default;
+}
+.product2 {
+    display: flex;
+    background-color:#131313;
+}
+.search a {
+    background-color: #0404048a;
+    color:#5b9df3;
+    text-decoration: none;
+    padding: 7px;
+    margin: 2px;
+    border-radius: 7px;
+    display: inline-block;
+}
+.search a:hover {
+    color: #a7ccfb;
+}
+.product2 .search {
+    padding: 4% 15% 4% 1%;
+}
+.product2 .finding {
+    padding: 4% 5% 4% 15%;
+    color: white;
+}
+.product2 .finding:hover {
+    cursor: default;
+}
+.product2 .finding img {
+    width: 30px;
+}
+.product2 .search input{
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+    padding-left: 10px;
+    border: 0px;
+}
+.product2 .search input:placeholder-shown {
+    padding-left: 10px;
+}
+.product2 .search .lets {
+    width: 280px;
+    background-color: #0e0e0ee4;
+    padding: 30px;
+    border-radius: 15px;
+}
+.bottom {
+    background-color: #a5d2ff9e;
+    border-radius: 10px; 
+}
+.bottom ul {
+    list-style: none;
+    display: flex;
+    padding: 1%;
+}
+.bottom ul li {
+    margin: auto;
+}
+.bottom ul li a {
+    text-decoration: none;
+    color: black;
+}
